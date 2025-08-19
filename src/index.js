@@ -31,7 +31,7 @@ function criarCartoes() {
                     <p class="card-text"><b>Descrição:</b> ${dados.descricao }</p>
                     <p class="card-text"><b>Produção:</b> ${dados.producao } (KG)</p>
                     <p class="card-text><b>Preço:</b> ${dados.preco}</p>
-                    <p class="card-text><b>Meses:</b> ${idadeMeses}</p>
+                    <p class="card-text><b>Idade em Meses:</b> ${idadeMeses}</p>
                     <p class="card-text><b>ID:</b>${dados.id}</p>
                 </div>
             </div>
