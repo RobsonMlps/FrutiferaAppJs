@@ -1,31 +1,32 @@
-# CafeteriaAPP
+# FrutifriraApp
 
-Aplicação web simples para apresentação de produtos de uma cafeteria, utilizando Bootstrap para o layout responsivo e JavaScript para renderização dinâmica dos cartões e gerenciamento do cardápio.
+Aplicação web para cadastro, listagem e visualização de informações sobre frutas e produção agrícola. O projeto utiliza Bootstrap para layout responsivo, Toastify para notificações e JavaScript para manipulação dinâmica dos dados.
 
 ## Funcionalidades
 
+- Cadastro de frutas e itens agrícolas com nome, nome científico, descrição, imagem, preço, produção e data de plantio.
+- Listagem dos itens cadastrados em tabela e cartões.
+- Cálculo automático da idade da planta em meses.
 - Carrossel de imagens na página inicial.
-- Exibição dinâmica de produtos (cafés, bolos, etc.) em cartões.
-- Cadastro, listagem e busca de itens do cardápio.
-- Layout responsivo com Bootstrap.
-- Notificações de ações usando Toastify-js.
+- Layout responsivo e moderno com Bootstrap.
+- Notificações de sucesso ao cadastrar itens.
 
 ## Estrutura do Projeto
 
 ```
-cafeteriaApp/
+FrutiferaAppJs/
 │
 ├── assets/
 │   └── imagem/
 │       └── (imagens dos produtos e do carrossel)
 ├── src/
-│   ├── index.js      # Código JavaScript para renderizar os cartões
-│   ├── cardapio.js   # Código JavaScript para o cardápio (cadastro/listagem)
-│   └── index.css     # Estilos customizados
-├── index.html        # Página principal
-├── cardapio.html     # Página de cadastro e listagem do cardápio
-├── package.json      # Dependências (Bootstrap, Toastify-js)
-└── README.md         # Este arquivo
+│   ├── index.js         # Renderização dos cartões e carrossel
+│   ├── cardastrar.js    # Cadastro e listagem dos itens
+│   └── index.css        # Estilos customizados
+├── index.html           # Página principal (carrossel e cards)
+├── cardastrar.html      # Página de cadastro e listagem
+├── package.json         # Dependências do projeto
+└── README.md            # Este arquivo
 ```
 
 ## Como Executar
@@ -35,7 +36,7 @@ cafeteriaApp/
    npm install
    ```
 
-2. Abra o arquivo `index.html` ou `cardapio.html` em seu navegador.
+2. Abra o arquivo `index.html` ou `cardastrar.html` no seu navegador.
 
 ## Dependências
 
@@ -46,4 +47,4 @@ cafeteriaApp/
 
 Desenvolvido por RobsonMlps.
 
-Licença
+&copy; 2025 FrutifriraApp. Todos os direitos reservados.
