@@ -1,11 +1,21 @@
-let itensCardapio = JSON.parse(localStorage.getItem("itensCardapio")) || [];
+let itensCardastrados = JSON.parse(localStorage.getItem("itensCardastrados")) || [];
 
 function criarTabela() {
     let tabelaDIV = document.getElementById("itensCardapioTBody");
     tabelaDIV.innerHTML = "";
+
+    function data (plantada) {
+        
+        let hoje =new Date();
+        plantada.getMonth() -
+        hoje.getMonth() +
+        12 * (plantada.getFullYear() - hoje.getFullYear())
+
+        return plantada
+    }
     
 
-    for (let dados of itensCardapio) {
+    for (let dados of itensCardastrados) {
         let tabela = `
             <tr>
                 <td>${dados.id}</td>
@@ -29,8 +39,8 @@ function handleSubmit(event) {
 
     itemCardapio.id = Date.now();
 
-    itensCardapio.push(itemCardapio);
-    localStorage.setItem('itensCardapio', JSON.stringify(itensCardapio));
+    itensCardastrados.push(itemCardapio);
+    localStorage.setItem('itensCardastrados', JSON.stringify(itensCardastrados));
 
     criarTabela();
 

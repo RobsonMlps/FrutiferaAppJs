@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FrutifriraApp
 
 Aplicação web para cadastro, listagem e visualização de informações sobre frutas e produção agrícola. O projeto utiliza Bootstrap para layout responsivo, Toastify para notificações e JavaScript para manipulação dinâmica dos dados.
@@ -48,3 +49,7 @@ FrutiferaAppJs/
 Desenvolvido por RobsonMlps.
 
 &copy; 2025 FrutifriraApp. Todos os direitos reservados.
+=======
+# FrutiferaAppJs
+app para gestão de frutas e produção agrícola simples. 
+>>>>>>> 0aff56cebd8cb75e1a16837d3f4d78de84f8b926

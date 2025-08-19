@@ -1,7 +1,7 @@
 let itensCardapio = JSON.parse(localStorage.getItem("itensCardapio")) || [];
 
 function criarCaroseu() {
-    let caroseuDIV = document.getElementById("itensCardapioTBody");
+    let caroseuDIV = document.getElementById("caroseu");
     caroseuDIV.innerHTML = "";
     
 
@@ -11,20 +11,9 @@ function criarCaroseu() {
                 <img src="${dados.imagem}" class="d-block w-100" alt="...">
             </div>
         `;
-        tabelaDIV.insertAdjacentHTML("beforeend", caroseu);
+        caroseuDIV.insertAdjacentHTML("beforeend", caroseu);
     }
 }
 
-function handleSubmit(event) {
-    event.preventDefault();
 
-    let cardapioForm = document.getElementById('ItemCadastrarForm');
-    let cardapioFormData = new FormData(cardapioForm);
-    let itemCardapio = Object.fromEntries(cardapioFormData);
-
-    itensCardapio.push(itemCardapio);
-    localStorage.setItem('itensCardapio', JSON.stringify(itensCardapio));
-
-}
-
-criarCaroseu()
+criarCaroseu();
