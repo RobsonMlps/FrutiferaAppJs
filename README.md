@@ -22,7 +22,7 @@ FrutiferaAppJs/
 ├── src/
 │   ├── index.js         # Renderização dos cartões e carrossel
 │   ├── cardastrar.js    # Cadastro e listagem dos itens
-│   └── index.css        # Estilos customizados
+│   └── carosel.js       # Renderização do carrossel
 ├── index.html           # Página principal (carrossel e cards)
 ├── cardastrar.html      # Página de cadastro e listagem
 ├── package.json         # Dependências do projeto
