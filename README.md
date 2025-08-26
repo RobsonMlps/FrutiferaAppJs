@@ -5,6 +5,9 @@ Aplicação web para cadastro, listagem e visualização de informações sobre 
 
 ## Funcionalidades
 
+## Video explicativo
+Link: https://youtu.be/i7zhPz1WBoE
+
 - Cadastro de frutas e itens agrícolas com nome, nome científico, descrição, imagem, preço, produção e data de plantio.
 - Listagem dos itens cadastrados em tabela e cartões.
 - Cálculo automático da idade da planta em meses.
