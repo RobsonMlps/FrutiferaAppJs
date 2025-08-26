@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+
+
+
+
+.carousel .carousel-item{
+            height: 30em;
+        }
+
+        .carousel-item img {
+            position: absolute;
+            object-fit: cover;
+            top: 0;
+            left: 0;
+            
+        }
